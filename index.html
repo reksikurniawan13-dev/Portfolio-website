@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rexy Kurniawan | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        Rexy<span>Kurniawan</span>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <button id="darkModeToggle" class="btn btn-sm dark-toggle">
+              <i class="bi bi-moon-stars"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <header id="home" class="hero-section reveal-section">
+    <div class="hero-shape shape-one"></div>
+    <div class="hero-shape shape-two"></div>
+    <div class="hero-shape shape-three"></div>
+
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <p class="hero-badge">Professional Portfolio</p>
+
+          <h1 class="hero-title">
+            Hi, I'm <span>Rexy Kurniawan</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            <span id="typingText"></span>
+          </h2>
+
+          <p class="hero-description">
+            Helping businesses and clients solve technical challenges through
+            reliable IT support, troubleshooting, and technology solutions.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary-custom">
+              View Portfolio
+            </a>
+
+            <a href="#contact" class="btn btn-outline-custom">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center order-1 order-lg-2 mb-5 mb-lg-0">
+          <div class="profile-wrapper">
+            <img
+              src="assets/profile.jpg"
+              alt="Rexy Kurniawan Profile Photo"
+              class="profile-img"
+              onerror="this.style.display='none'; document.querySelector('.profile-fallback').style.display='flex';"
+            />
+
+            <div class="profile-fallback">
+              <i class="bi bi-person-circle"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section-padding reveal-section">
+    <div class="container">
+      <div class="section-title text-center reveal-card">
+        <p>Introduction</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10 reveal-card">
+          <div class="about-card">
+            <p>
+              I am a versatile professional with experience across multiple
+              fields, including IT support, client services, sales, creative
+              content, and technology solutions.
+            </p>
+
+            <h5>IT Support & System Administration</h5>
+            <p>
+              Providing technical support to employees, troubleshooting hardware
+              and software issues, installing and configuring business
+              applications, maintaining computers, laptops, printers, and other
+              IT equipment, managing ticketing systems, and ensuring the
+              stability and availability of IT infrastructure to support daily
+              business operations.
+            </p>
+
+            <h5>Consulting & Client Management</h5>
+            <p>
+              Providing tailored solutions based on client needs, managing
+              projects from start to completion, and building strong client
+              relationships through clear communication, trust, and consistent
+              progress updates.
+            </p>
+
+            <h5>Sales & Marketing</h5>
+            <p>
+              Handling on-site sales of premium products, delivering excellent
+              customer service, and executing direct marketing strategies.
+            </p>
+
+            <h5>Creative & Editing</h5>
+            <p>
+              Editing video content using Adobe Premiere Pro for social media
+              and creative projects.
+            </p>
+
+            <h5>Technology & Solutions</h5>
+            <p>
+              Assembling and configuring custom PCs, providing component
+              selection advice, performing system upgrades, troubleshooting
+              technical issues, and ensuring system stability and performance.
+            </p>
+
+            <p>
+              In my current role, I serve as a first-level IT support specialist,
+              responding to user issues, managing support tickets, coordinating
+              escalations for complex technical problems, and helping maintain
+              the reliability of business systems, including ERP and operational
+              applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-padding bg-soft reveal-section">
+    <div class="container">
+      <div class="section-title text-center reveal-card">
+        <p>Capabilities</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-headset"></i>
+            <h5>Technical Support</h5>
+            <p>
+              Menyediakan dukungan teknis kepada pengguna dalam menangani
+              permasalahan perangkat keras, perangkat lunak, jaringan dasar,
+              dan aplikasi bisnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-windows"></i>
+            <h5>Windows</h5>
+            <p>
+              Berpengalaman dalam instalasi, konfigurasi, pemeliharaan, serta
+              troubleshooting sistem operasi Microsoft Windows.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-tools"></i>
+            <h5>Troubleshooting</h5>
+            <p>
+              Mampu mengidentifikasi, menganalisis, dan menyelesaikan berbagai
+              permasalahan teknis secara sistematis dan efektif.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-pc-display"></i>
+            <h5>Computer Hardware</h5>
+            <p>
+              Memiliki pemahaman mengenai komponen komputer seperti motherboard,
+              processor, RAM, storage, power supply, dan perangkat lainnya.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-printer"></i>
+            <h5>Hardware Installation</h5>
+            <p>
+              Berpengalaman dalam pemasangan, konfigurasi, dan pengujian
+              perangkat keras seperti komputer, printer, scanner, dan perangkat IT.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-download"></i>
+            <h5>Software Installation</h5>
+            <p>
+              Mampu melakukan instalasi, konfigurasi, pembaruan, dan maintenance
+              berbagai jenis software untuk kebutuhan pengguna.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-people"></i>
+            <h5>Client Services</h5>
+            <p>
+              Memahami kebutuhan klien, memberikan solusi yang sesuai, menjaga
+              komunikasi efektif, dan memastikan layanan sesuai ekspektasi.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-camera-video"></i>
+            <h5>Adobe Premiere Pro</h5>
+            <p>
+              Menguasai editing video dasar hingga menengah, termasuk cutting,
+              audio, transisi, color correction sederhana, dan konten media sosial.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal-card">
+          <div class="skill-card">
+            <i class="bi bi-image"></i>
+            <h5>Adobe Photoshop</h5>
+            <p>
+              Mampu melakukan editing gambar, desain grafis dasar, pembuatan
+              thumbnail, banner, dan materi visual digital.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-padding reveal-section">
+    <div class="container">
+      <div class="section-title text-center reveal-card">
+        <p>Portfolio</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-filter text-center mb-5 reveal-card">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="IT Support">IT Support</button>
+        <button class="filter-btn" data-filter="Creative">Creative</button>
+        <button class="filter-btn" data-filter="Hardware">Hardware</button>
+        <button class="filter-btn" data-filter="ERP">ERP</button>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 project-item reveal-card" data-category="Creative">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="bi bi-controller"></i>
+            </div>
+
+            <span class="project-category">Creative</span>
+            <h5>War Thunder Content Creation</h5>
+            <h6>YouTube and TikTok Gaming Project</h6>
+
+            <p>
+              Membuat konten video dan naskah pembahasan kendaraan militer
+              dalam game War Thunder untuk kebutuhan kanal YouTube gaming.
+            </p>
+
+            <ul>
+              <li>Penulisan script video</li>
+              <li>Editing konten</li>
+              <li>Perencanaan alur pembahasan kendaraan</li>
+              <li>Pembuatan thumbnail dan materi promosi</li>
+            </ul>
+
+            <p class="project-skills">
+              Adobe Premiere Pro, Content Creation, Adobe Photoshop, Creative Writing
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 project-item reveal-card" data-category="Creative">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="bi bi-film"></i>
+            </div>
+
+            <span class="project-category">Creative</span>
+            <h5>Video Editing Project</h5>
+            <h6>Freelance Video Editor</h6>
+
+            <p>
+              Mengedit konten video untuk kebutuhan media sosial, gaming, dan
+              promosi menggunakan Adobe Premiere Pro.
+            </p>
+
+            <ul>
+              <li>Video cutting dan sequencing</li>
+              <li>Audio synchronization</li>
+              <li>Basic color correction</li>
+              <li>Pembuatan intro, outro, dan motion sederhana</li>
+            </ul>
+
+            <p class="project-skills">
+              Adobe Premiere Pro, Content Editing, Video Production
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 project-item reveal-card" data-category="Hardware">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="bi bi-motherboard"></i>
+            </div>
+
+            <span class="project-category">Hardware</span>
+            <h5>Custom PC Assembly & Troubleshooting Service</h5>
+            <h6>Freelance Project</h6>
+
+            <p>
+              Menyediakan layanan perakitan, upgrade, dan troubleshooting
+              komputer sesuai kebutuhan pengguna.
+            </p>
+
+            <ul>
+              <li>Konsultasi pemilihan komponen sesuai budget</li>
+              <li>Perakitan dan instalasi sistem operasi</li>
+              <li>Optimasi performa komputer</li>
+              <li>Diagnosa masalah hardware dan software</li>
+            </ul>
+
+            <p class="project-skills">
+              Computer Hardware, Hardware Installation, Windows, Troubleshooting
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 project-item reveal-card" data-category="IT Support">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="bi bi-building-gear"></i>
+            </div>
+
+            <span class="project-category">IT Support</span>
+            <h5>IT Support & Infrastructure Management</h5>
+            <h6>Perusahaan Distributor Truk - Current Position</h6>
+
+            <p>
+              Memberikan dukungan teknis kepada pengguna perusahaan terkait
+              hardware, software, ERP system, printer, dan workstation.
+            </p>
+
+            <ul>
+              <li>Menangani ticket support harian</li>
+              <li>Troubleshooting hardware dan software</li>
+              <li>Instalasi perangkat kerja karyawan</li>
+              <li>Koordinasi eskalasi masalah kompleks</li>
+            </ul>
+
+            <p class="project-skills">
+              Technical Support, Troubleshooting, Windows, Customer Service
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 project-item reveal-card" data-category="ERP">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="bi bi-diagram-3"></i>
+            </div>
+
+            <span class="project-category">ERP</span>
+            <h5>ERP Support & Business Application Administration</h5>
+            <h6>Business Application Support Project</h6>
+
+            <p>
+              Mendukung pengguna ERP, melakukan analisis awal terhadap kendala
+              sistem, dokumentasi error, dan koordinasi dengan tim terkait.
+            </p>
+
+            <ul>
+              <li>Membantu user dalam penggunaan ERP</li>
+              <li>Dokumentasi error dan kendala sistem</li>
+              <li>Membuat tiket eskalasi</li>
+              <li>Pengecekan data dan alur proses bisnis</li>
+            </ul>
+
+            <p class="project-skills">
+              ERP Support, Technical Support, Business Application, Ticketing System
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-padding bg-soft reveal-section">
+    <div class="container">
+      <div class="section-title text-center reveal-card">
+        <p>Get In Touch</p>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <a
+            href="mailto:reksikurniawan13@gmail.com"
+            class="contact-info-card reveal-card contact-clickable-card"
+          >
+            <i class="bi bi-envelope"></i>
+            <div>
+              <h5>Email</h5>
+              <p>reksikurniawan13@gmail.com</p>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/6282130211015"
+            target="_blank"
+            class="contact-info-card reveal-card contact-clickable-card"
+          >
+            <i class="bi bi-whatsapp"></i>
+            <div>
+              <h5>Phone / WhatsApp</h5>
+              <p>+62 821-3021-1015</p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/rexy-kurniawan/"
+            target="_blank"
+            class="contact-info-card reveal-card contact-clickable-card"
+          >
+            <i class="bi bi-linkedin"></i>
+            <div>
+              <h5>LinkedIn</h5>
+              <p>linkedin.com/in/rexy-kurniawan</p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Serang%2C%20Banten%2C%20Indonesia"
+            target="_blank"
+            class="contact-info-card reveal-card contact-clickable-card"
+          >
+            <i class="bi bi-geo-alt"></i>
+            <div>
+              <h5>Location</h5>
+              <p>Serang, Banten, Indonesia</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-7 reveal-card">
+          <form id="contactForm" class="contact-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="col-12">
+                <input
+                  type="text"
+                  id="subject"
+                  class="form-control"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+
+              <div class="col-12">
+                <textarea
+                  id="message"
+                  class="form-control"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary-custom">
+                  Send Message
+                </button>
+              </div>
+
+              <p id="formAlert" class="form-alert"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer reveal-section">
+    <div class="container text-center">
+      <div class="footer-links mb-3">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social mb-3">
+        <a href="mailto:reksikurniawan13@gmail.com">
+          <i class="bi bi-envelope"></i>
+        </a>
+
+        <a href="https://wa.me/6282130211015" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rexy-kurniawan/" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+
+      <p>© 2026 Rexy Kurniawan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a
+    href="https://wa.me/6282130211015"
+    class="floating-whatsapp"
+    target="_blank"
+    aria-label="WhatsApp"
+  >
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Back To Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
